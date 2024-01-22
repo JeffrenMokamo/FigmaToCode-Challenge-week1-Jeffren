@@ -1,0 +1,68 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar */
+
+.menu .logo h2{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--DoctorGradient, linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu .logo img{
+    margin-top: -15px;
+}
+
+.menu nav{
+    margin-top: 10px;
+}
+
+.menu nav ul li a{
+    color: var(--Second, #6C87AE);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.8;
+}
+
+.menu nav ul li a.active{
+    color: #3A8EF6;
+    opacity: 1;
+}
+
+.menu button{
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    background: linear-gradient(#3A8ef6, #6f3afa);
+    border-radius: 100px;
+}
+
+/* Presentation */
+
+.presentation{
+    background-color: #F2F7FF;
+}
+
+.presentation .text-acc button{
+    border-radius: 100px;
+    background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+    display: flex;
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 10px;
+}
