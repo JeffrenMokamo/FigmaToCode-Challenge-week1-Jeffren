@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #F2F7FF!important;
 }
 
 /* Nav bar */
@@ -53,10 +54,6 @@ body{
 
 /* Presentation */
 
-.presentation{
-    background-color: #F2F7FF;
-}
-
 .presentation .text-acc button{
     border-radius: 100px;
     background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
@@ -65,4 +62,15 @@ body{
     padding: 16px 28px;
     align-items: flex-start;
     gap: 10px;
+}
+
+/* Listitems */
+
+.listitems .item{
+    display: flex;
+    padding: 8px 18px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    background: var(--gradients, linear-gradient(145deg, #1678F2 3.73%, #65A8FB 132.69%));
 }
