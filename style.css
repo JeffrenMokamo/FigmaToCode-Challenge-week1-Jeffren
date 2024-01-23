@@ -86,7 +86,28 @@ body{
     gap: 10px;
 }
 
+/* Services */
+
 .services .content button{
+    border-radius: 100px;
+    background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+    padding: 16px 28px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.services .nos-services .service{
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 24px;
+    box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+}
+
+.services .nos-services .service section button{
     border-radius: 100px;
     background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
     box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
