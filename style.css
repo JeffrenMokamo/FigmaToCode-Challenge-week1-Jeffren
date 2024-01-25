@@ -82,6 +82,10 @@ body{
 
 /* About  */
 
+.about{
+    padding: 170px 10%;
+}
+
 .about .content button{
     border-radius: 100px;
     background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
