@@ -97,6 +97,10 @@ body{
 
 /* Services */
 
+.services{
+    margin-bottom: 100px;
+}
+
 .services .content button{
     border-radius: 100px;
     background: linear-gradient(96deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
@@ -134,6 +138,10 @@ body{
 
 /* CTA */
 
+.CTA{
+    padding: 170px;
+}
+
 .CTA div button{
     padding: 16px 28px;
     align-items: flex-start;
@@ -141,6 +149,14 @@ body{
     box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
     color: var(--Blue-1, #3A8EF6);
     margin: auto;
+}
+
+.video{
+    padding: 50px;
+}
+
+.video div p{
+    padding: 0 400px;
 }
 
 /* footer */
