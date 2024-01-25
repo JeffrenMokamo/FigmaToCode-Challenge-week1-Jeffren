@@ -233,12 +233,8 @@ footer hr{
         margin: auto;
     }
 
-    footer{
-        padding: 50px 20px;
-    }
-
-    footer div .links{
-        flex-direction: column-reverse;
+    .CTA{
+        padding: 170px 10px;
     }
 
     .video{
@@ -247,6 +243,29 @@ footer hr{
 
     .video div p{
         padding: 0;
+    }
+
+    .review{
+        padding: 10px;
+    }
+
+    .review .reviews{
+        padding: 30px;
+        position: relative;
+        margin-bottom: 250px;
+    }
+
+    .review .reviews .bg-white{
+        position: absolute!important;
+        width: 100%;
+    }
+
+    footer{
+        padding: 50px 20px;
+    }
+
+    footer div .links{
+        flex-direction: column-reverse;
     }
 
 }
