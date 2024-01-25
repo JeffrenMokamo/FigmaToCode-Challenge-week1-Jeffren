@@ -10,6 +10,10 @@ body{
     overflow-x: hidden;
 }
 
+.visible{
+    display: block!important;
+}
+
 /* Nav bar */
 
 .menu .logo h2{
@@ -21,6 +25,24 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.menu i{
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    display: none;
+}
+
+.menu .bi-list{
+    color: #1678F2;
+    right: 20px;
+}
+
+.menu .bi-x-lg{
+    z-index: 20;
+    top: 10px;
+    right: 20px;
 }
 
 .menu .logo img{
@@ -203,6 +225,26 @@ footer hr{
 
 @media (max-width: 1000px){
 
+    nav{
+        position: absolute;
+        top: -10px;
+        left: 0;
+        right: 0;
+        background-color: #1678F2;
+        padding: 100px 0;
+        display: none;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav ul li a{
+        color: #fff!important;
+        font-size: 25px!important;
+        font-weight: bold!important;
+    }
+
     .presentation{
         text-align: center;
         flex-direction: column-reverse;
@@ -303,5 +345,7 @@ footer hr{
     footer div .links{
         flex-direction: column-reverse;
     }
-
+    .menu .bi-list{
+        display: block;
+    }
 }
