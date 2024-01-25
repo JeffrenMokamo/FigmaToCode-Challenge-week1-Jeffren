@@ -194,3 +194,30 @@ footer hr{
     border: 1px solid #fff;
 }
 
+/* Media Query */
+
+@media (max-width: 1000px){
+
+    .presentation{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .presentation .text-acc button{
+        margin: auto;
+    }
+
+    .listitems{
+        padding: 0 30px;
+    }
+    
+    .about{
+        text-align: center;
+        padding: 170px 10px;
+    }
+
+    .about .content button{
+        margin: auto;
+    }
+
+}
