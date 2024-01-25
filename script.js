@@ -11,8 +11,5 @@ bntMenu.onclick = () =>{
 
 bntClose.onclick = ()=>{
     menu.classList.toggle('visible');
-}
-
-if(!menu.classList.contains('visible')){
-    bntClose.classList.remove('visible');
+    bntClose.classList.toggle('visible');
 }

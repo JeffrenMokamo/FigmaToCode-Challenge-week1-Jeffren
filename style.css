@@ -225,6 +225,14 @@ footer hr{
 
 @media (max-width: 1000px){
 
+    .menu{
+        padding: 20px;
+    }
+
+    .menu button{
+        display: none;
+    }
+
     nav{
         position: absolute;
         top: -10px;
