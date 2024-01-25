@@ -234,11 +234,19 @@ footer hr{
     }
 
     footer{
-        padding: 50px 80px;
+        padding: 50px 20px;
     }
 
     footer div .links{
         flex-direction: column-reverse;
+    }
+
+    .video{
+        padding: 50px 10px;
+    }
+
+    .video div p{
+        padding: 0;
     }
 
 }
