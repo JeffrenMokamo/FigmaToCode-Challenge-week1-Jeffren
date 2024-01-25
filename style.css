@@ -105,6 +105,9 @@ body{
     align-items: flex-start;
     gap: 10px;
 }
+.services .nos-services{
+    padding: 50px 20%;
+}
 
 .services .nos-services .service{
     display: flex;
@@ -114,6 +117,10 @@ body{
     gap: 24px;
     border-radius: 24px;
     box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+}
+
+.services .nos-services .service img{
+    margin: auto;
 }
 
 .services .nos-services .service section button{
