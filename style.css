@@ -178,5 +178,19 @@ body{
 /* footer */
 
 footer{
+    padding: 50px 100px;
     background-color: #1678F2;
 }
+
+footer .row .col .flex img{
+    margin-top: -20px;
+}
+
+footer .row p{
+    font-style: italic;
+}
+
+footer hr{
+    border: 1px solid #fff;
+}
+
