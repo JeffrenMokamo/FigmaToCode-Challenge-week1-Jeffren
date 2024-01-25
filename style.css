@@ -220,4 +220,25 @@ footer hr{
         margin: auto;
     }
 
+    .services .justify-center{
+        padding: 15px;
+    }
+
+    .services .justify-center .mb-5{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .services .justify-center button{
+        margin: auto;
+    }
+
+    footer{
+        padding: 50px 80px;
+    }
+
+    footer div .links{
+        flex-direction: column-reverse;
+    }
+
 }
